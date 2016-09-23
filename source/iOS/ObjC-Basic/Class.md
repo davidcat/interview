@@ -160,7 +160,7 @@ OC 中的方法只要声明在 @interface里，就可以认为都是公有的。
 
 不需要我们写任何代码，就可以直接使用 getter 和 setter 了。
 
-然而并不是所有情况下编译器都会进行自动 synthesize，具体由下面几种：
+然而并不是所有情况下编译器都会进行自动 synthesize，具体有下面几种：
 
 * 可读写(readwrite)属性实现了自己的 getter 和 setter
 * 只读(readonly)属性实现了自己的 getter
